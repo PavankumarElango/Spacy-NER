@@ -5,3 +5,4 @@ spacy-stanza==1.0.0
 spacy==3.0.7
 flask-ngrok==0.0.25
 Flask-Markdown==0.3
+click==7.0
