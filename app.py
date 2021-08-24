@@ -31,7 +31,7 @@ import spacy_stanza
 import spacy
 import stanza
 from spacy import displacy
-#from spacy.pipeline import EntityRecognizer
+
 #import pandas as pd
 
 # nlp_med = spacy.load("en_ner_bc5cdr_md")
