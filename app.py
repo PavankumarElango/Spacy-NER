@@ -32,7 +32,7 @@ import spacy
 import stanza
 from spacy import displacy
 from spacy.pipeline import EntityRecognizer
-import pandas as pd
+#import pandas as pd
 
 # nlp_med = spacy.load("en_ner_bc5cdr_md")
 
@@ -79,8 +79,8 @@ def extract():
 ''', '\n')
         result = HTML_WRAPPER.format(html)
         l2 = [(ent.start_char, ent.end_char, ent.text, ent.label_)for ent in docx.ents]
-        data = pd.DataFrame(l2, columns=['Location_start',
-                            'Location_end', 'Entity', 'Semantics'])
+        #data = pd.DataFrame(l2, columns=['Location_start',
+                          #  'Location_end', 'Entity', 'Semantics'])
 
         # clinical_data = data.to_csv("/content/sample_data/data")
 
