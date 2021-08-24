@@ -44,7 +44,7 @@ nlp_cli = spacy_stanza.load_pipeline('en', package='mimic',
         disable=['tagger', 'attribute_ruler', 'lemmatizer'],
         processors={'ner': 'i2b2'})
 
-app = Flask(__name__, template_folder='/templates/')
+app = Flask(__name__, template_folder='templates')
 Markdown(app)
 run_with_ngrok(app)  # Start ngrok when app is run
 
