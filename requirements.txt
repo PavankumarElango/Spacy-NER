@@ -1,6 +1,6 @@
 Flask==1.1.1
 gunicorn==19.10.0
-stanza == 0.3
+stanza == 1.2.3
 spacy-stanza==1.0.0
 spacy==3.0.7
 flask-ngrok==0.0.25
